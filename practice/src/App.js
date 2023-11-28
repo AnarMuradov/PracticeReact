@@ -1,10 +1,12 @@
 import './App.css';
-import MiniCalc from './components/MiniCalc';
+import FetchBasket from './components/FetchcardBasketadd';
+// import MiniCalc from './components/MiniCalc';
 
 function App() {
   return (
     <div className="App">
-   <MiniCalc/>
+   {/* <MiniCalc/> */}
+   <FetchBasket/>
     </div>
   );
 }
