@@ -1,5 +1,6 @@
 import './App.css';
-import Customisotop from './components/Customisotop';
+import WishList from './components/WishList';
+// import Customisotop from './components/Customisotop';
 // import FetchBasket from './components/FetchcardBasketadd';
 // import MiniCalc from './components/MiniCalc';
 
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
    {/* <MiniCalc/> */}
    {/* <FetchBasket/> */}
-   <Customisotop/>
+   {/* <Customisotop/> */}
+   <WishList/>
     </div>
   );
 }
